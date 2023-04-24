@@ -31,7 +31,7 @@ function App() {
 	return (
 		<>
 			<ApolloProvider client={client}>
-				<Router>
+				<Router basename='/Project-management-client'>
 					<Header />
 					<div className='container'>
 						<Routes>
