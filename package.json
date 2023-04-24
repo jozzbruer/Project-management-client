@@ -1,7 +1,7 @@
 {
   "name": "projectmanagementclient",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@apollo/client": "^3.7.12",
     "@testing-library/jest-dom": "^5.16.5",
