@@ -35,7 +35,7 @@ function App() {
 					<Header />
 					<div className='container'>
 						<Routes>
-							<Route path='/' element={<Home />} />
+							<Route path='/Project-management-client' element={<Home />} />
 							<Route path='projects/:id' element={<Project />} />
 							<Route path='*' element={<NotFound />} />
 						</Routes>
