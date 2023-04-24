@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+#  Project Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application for managing data using a GraphQL API built with Node.js in the backend, and a React-based front-end using the Apollo Client library for interacting with the GraphQL API.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Features
+-   Data management: users can view, create, update, and delete projects.
+-   Real-time updates: the application updates data in real-time using GraphQL subscriptions, which allow for server-to-client communication.
 
-### `npm start`
+## Technologies used
+-   Front-end: React, Apollo Client, Boostrap.
+-   Back-end: Node.js, GraphQL, Express, MongoDB, Mongoose.
+-   Development tools: Git, VS Code, npm.
+## Getting started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Before running the application, you need to have the following software installed on your machine:
 
-### `npm test`
+-   Node.js v14 or later.
+-   MongoDB(Atlas).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+1.  Clone this repository to your local machine using `git clone`.
+    
+2.  Navigate to the `client` folder and run `npm install` to install the front-end dependencies.
+    
+3.  Navigate to the `server` folder and run `npm install` to install the back-end dependencies.
+    
+4.  Create a `.env` file in the `server` folder and add the following environment variables:
+### Running the application
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1.  Open a terminal and navigate to the `server` folder. (Server is a separate repo)[LINK HERE](https://github.com/jozzbruer/Project-Management-backend)
+2.  Run `npm start` to start the server.
+3.  Open another terminal and navigate to the `client` folder.
+4.  Run `npm start` to start the front-end application.
+5.  Open a web browser and navigate to `http://localhost:3001` to access the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## API Documentation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The GraphQL API documentation is available at `http://localhost:3000/graphql`.
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+If you'd like to contribute to this project, please follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1.  Fork this repository.
+2.  Create a new branch with your changes: `git checkout -b my-feature-branch`.
+3.  Make your changes and commit them: `git commit -m "Add some feature"`.
+4.  Push your changes to your fork: `git push origin my-feature-branch`.
+5.  Create a pull request on this repository.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Screenshot 2023-04-24 at 12 01 30 AM](https://user-images.githubusercontent.com/21253158/233941050-3f6729df-115c-4667-89db-98989310d6a4.png)
